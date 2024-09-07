@@ -1,0 +1,32 @@
+/* Center the upload component and reduce its size */
+.title-text{
+    
+    text-align: center !important;
+    height : 100px !important;
+}
+.upload-container {
+    width: 30% !important;/* Adjust the width to make it smaller */
+    height: 200px !important;
+    margin: 0 auto !important; /* Center horizontally */
+    padding: 10px !important;
+    border: 2px dashed #007bff !important; /* Add some styling to the borders */
+    border-radius: 10px !important;
+    background-color: #f9f9f9 !important;
+    text-align: center !important; /* Center the content inside */
+}
+
+.upload-container:hover {
+    background-color: #f1f1f1 !important; /* Add hover effect */
+}
+
+.upload-container a {
+    color: #007bff !important; /* Make the text blue to match theme */
+}
+
+button#detect-button {
+    margin-top: 20px !important;
+    display: block !important;
+    width: 100px !important; /* Smaller button */
+    margin-left: auto !important;
+    margin-right: auto !important; /* Center the button horizontally */
+}
